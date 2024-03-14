@@ -1,0 +1,5 @@
+### cmake-gui 编译 OpenCV
+
+把关于python的都给取消勾选。勾选BUILD_opencv_world，WITH_OPENGL和BUILD_EXAMPLES，不勾选WITH_IPP、WITH_MSMF和ENABLE_PRECOMPILED_HEADERS（如果有的话），CPU_DISPATCH选空
+
+不勾选 WITH_DIRECTX
